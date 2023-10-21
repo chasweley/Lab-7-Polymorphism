@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Lab_7_Polymorphism
 {
-    public class Circle : Geometry
+    public class Circle : Geometry //Creating subclass for circle inheriting from Geometry
     {
-        public double Radius { get; set; }
-        public Circle() 
+        public double Radius { get; } //Setting field
+        public Circle() //Constructor to assign variable value
         {
             Radius = 4;
         }
-        public override double Area(double radius, double y)
+        public override double Area() //Override of base class method to calculate circle area
         {
-            return radius * radius * Math.PI;
+            return Radius * Radius * Math.PI;
         }
     }
 }

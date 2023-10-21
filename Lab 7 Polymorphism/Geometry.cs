@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lab_7_Polymorphism
 {
-    public abstract class Geometry
+    public class Geometry //Creating base class
     {
-        public abstract double Area(double x, double y);
+        public virtual double Area() //Creating virtual method for subclasses to override
+        {
+            return 0; //return value zero since no specific shape to calculate area exists in this class
+        }
     }
 }

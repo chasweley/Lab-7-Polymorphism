@@ -6,17 +6,18 @@ using System.Threading.Tasks;
 
 namespace Lab_7_Polymorphism
 {
-    internal class Rectangle : Geometry //Creating subclass for Rectangle inheriting from Geometry
+    public class Parallelogram : Geometry //Creating subclass for Parallelogram inheriting from Geometry
     {
         public double Height { get; } //Setting fields
         public double Width { get; }
 
-        public Rectangle() //Constructor to assign variable value
+        public Parallelogram() //Constructor to assign variable value
         {
-            Height = 5.2;
-            Width = 10.1;
+            Height = 8.0;
+            Width = 9.0;
         }
-        public override double Area() //Override of base class method to calculate rectangle area
+
+        public override double Area() //Override of parent class method to calculate parallelogram area
         {
             return Height * Width;
         }
