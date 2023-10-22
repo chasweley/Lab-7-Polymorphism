@@ -8,7 +8,7 @@ namespace Lab_7_Polymorphism
 {
     public class Square : Geometry //Creating subclass for Square inheriting from Geometry
     {
-        public double Side { get; } //Setting field
+        public double Side { get; } //Setting properties
         public Square() //Constructor to assign variable value
         {
             Side = 7.4;

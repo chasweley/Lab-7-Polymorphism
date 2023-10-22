@@ -8,7 +8,7 @@ namespace Lab_7_Polymorphism
 {
     public class Parallelogram : Geometry //Creating subclass for Parallelogram inheriting from Geometry
     {
-        public double Height { get; } //Setting fields
+        public double Height { get; } //Setting properties
         public double Width { get; }
 
         public Parallelogram() //Constructor to assign variable value

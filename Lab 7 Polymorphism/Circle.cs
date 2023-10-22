@@ -8,7 +8,7 @@ namespace Lab_7_Polymorphism
 {
     public class Circle : Geometry //Creating subclass for circle inheriting from Geometry
     {
-        public double Radius { get; } //Setting field
+        public double Radius { get; } //Setting properties
         public Circle() //Constructor to assign variable value
         {
             Radius = 4;

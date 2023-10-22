@@ -8,7 +8,7 @@ namespace Lab_7_Polymorphism
 {
     internal class Rectangle : Geometry //Creating subclass for Rectangle inheriting from Geometry
     {
-        public double Height { get; } //Setting fields
+        public double Height { get; } //Setting properties
         public double Width { get; }
 
         public Rectangle() //Constructor to assign variable value

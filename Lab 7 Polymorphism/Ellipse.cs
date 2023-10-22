@@ -8,7 +8,7 @@ namespace Lab_7_Polymorphism
 {
     public class Ellipse : Geometry //Creating subclass for Ellipse inheriting from Geometry
     {
-        public double Radius1 { get; set; } //Setting fields
+        public double Radius1 { get; set; } //Setting properties
         public double Radius2 { get; set; }
 
         public Ellipse() //Constructor to assign variables value
